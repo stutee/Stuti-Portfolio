@@ -1,12 +1,17 @@
 'use client'
 import Services from "@/components/Services";
+import Education from "@/components/Education";
+
 import About from "@/components/About";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import Work from "@/components/Work";
-import Contact from "@/components/Contact";
+//import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+
 import { useEffect, useState } from "react";
+import Experience from "@/components/Experience";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -31,11 +36,15 @@ export default function Home() {
     <>
     <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
     <Header isDarkMode={isDarkMode} />
-    <About isDarkMode={isDarkMode} />
+    <Education isDarkMode={isDarkMode} />
+    {/* <About isDarkMode={isDarkMode} /> */}
+    <Experience isDarkMode={isDarkMode} />
+    <Skills isDarkMode={isDarkMode} />
     <Services isDarkMode={isDarkMode} />
     <Work isDarkMode={isDarkMode} />
-    <Contact isDarkMode={isDarkMode} />
+    {/* <Contact isDarkMode={isDarkMode} /> */}
     <Footer isDarkMode={isDarkMode} />
+    
     </>
   );
 }

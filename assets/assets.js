@@ -1,6 +1,8 @@
 import user_image from './user-image.png';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
+import UH_logo from './UH_logo.png';
+import TU_logo from './TU_logo.png';
 import edu_icon from './edu-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
@@ -35,11 +37,41 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import logo_stuti from './logostuti.png';
+import sp_logo from './sp_logo.png';
+import Daraz_logo from './Daraz_Logo.png';
+import leapfrog_logo from './leapfrog_logo.png'
+import nodejs_logo from './nodejs_logo.png'
+import html_logo from './html_logo.png'
+import css_logo from './css_logo.png'
+import javascript_logo from './Javascript_logo.png'
+import python_logo from './python_logo.png'
+import R_logo from './R_logo.png'
+import react_logo from './react_logo.png'
+import nextjs_logo from './nextjs_logo.png'
+import mongodb_logo from './mongodb_logo.png'
+import express_logo from './express_logo.png'
 
 export const assets = {
     user_image,
     code_icon,
     code_icon_dark,
+    Daraz_logo,
+    TU_logo,
+    UH_logo,
+    sp_logo,
+    leapfrog_logo,
+    html_logo,
+    css_logo,
+    javascript_logo,
+    python_logo,
+    R_logo,
+    nodejs_logo,
+    react_logo,
+    nextjs_logo,
+    mongodb_logo,
+    express_logo,
+
     edu_icon,
     edu_icon_dark,
     project_icon,
@@ -51,6 +83,7 @@ export const assets = {
     mongodb,
     right_arrow_white,
     logo,
+    logo_stuti,
     logo_dark,
     mail_icon,
     mail_icon_dark,
@@ -112,6 +145,117 @@ export const infoList = [
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
+export const eduList = [
+    { icon: assets.UH_logo, iconDark: assets.UH_logo, universityName: 'University of Houston', title: 'Masters in Computer Science', description: 'Artificial Intelligence, Machine Learning,  Data Mining, Digital Image Processing, Cloud Computing, Visualization, Statistical Methods in Research, Advanced Numerical Analysis, Cybersecurity' },
+    { icon: assets.TU_logo, iconDark: assets.TU_logo,universityName: 'Tribhuvan University: IOE Pulchowk Campus', title: 'Bachelors in Electronics and Communication Engineering', description: 'Object Oriented Programming, Engineering Mathematics (Linear Algebra, Calculus I & II), Discrete Structure, Probability and Statistics, Artificial Intelligence, Data Mining, Digital Signal Processing, Signal Analysis, Database Management Systems, Electronic Devices and Circuits, Embedded Systems, Microprocessor, Computer Network' },
+    //{ icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+];
+
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
 ];
+
+export const experiences = [
+    {
+      icon: assets.sp_logo, 
+      iconDark: assets.sp_logo,
+      title: "Product Management Associate Intern",
+      company: "S&P Global",
+      duration: "Jun 2024 - Aug 2024",
+      points: [
+        "Created Upstream Emission dashboard in Spotfire, utilizing SQL for analysis and visualization to present to clients.",
+        "Performed SQL queries in Snowflake to extract data on gasses emitted during the oil extraction process.",
+        "Trained machine learning model using the XGBoost algorithm to select attributes for effectively predicting the optimal position of drilling wells for high production.",
+        "Collaborated with the research team to cross-check data obtained from various wells.",
+        "Participated in daily sprints (Agile methodology) with Python developers in Poland to engage in daily updates on user stories.",
+      ],
+    },
+    {
+      icon: assets.UH_logo, // Add the company logo or image path
+      iconDark: assets.UH_logo,
+      title: "Virtual Reality Research Assistant",
+      company: "University of Houston",
+      duration: "Aug 2023 - May 2024",
+      points: [
+        "Developed an immersive Metaverse application for Meta Quest 2 & 3 (Oculus).",
+        "Integrated LiDAR point clouds into mesh environments in Unity, developing interactive features, such as distance calculations, multiplayer support, voice chat, and intuitive UIs for construction engineers and workers.",
+      ],
+    },
+
+    {
+        icon: assets.Daraz_logo, // Add the company logo or image path
+        iconDark: assets.Daraz_logo,
+        title: "Artificial Intelligence Trainer",
+        company: "Daraz (Alibaba Group)",
+        duration: "Jul 2022 - Sept 2022",
+        points: [
+          "Enhanced chatbot resolution rate by 5% through data analysis using SQL, Excel, and Pandas.",
+          "Annotated FAQs to improve the chatbot's knowledge base, collaborating with Alibaba's Artificial Intelligence team.",
+          "Launched a trial for a 'smart live agent' feature, influencing strategies in regional markets.",
+          "Refined user experiences and improved the chatbot's user interface for better usability and met the KPI every time."
+        ],
+      },
+      {
+        icon: assets.leapfrog_logo, // Add the company logo or image path
+        iconDark: assets.leapfrog_logo,
+        title: "Software Engineer Intern",
+        company: "Leapfrog Technology Inc",
+        duration: "May 2022 - June 2022",
+        points: [
+          "Prepared responsive design of various web pages from Figma using HTML, CSS, and Javascript.",
+          "Algorithm implementation for game development using javascript, HTML, CSS, Node.js and Express.",
+        ],
+      },
+  ];
+
+  export const skillsData = [
+    {
+      category: "Programming Languages",
+      items: [
+        { name: "Python", icon: assets.python_logo },
+        { name: "R", icon: assets.R_logo},
+        { name: "C#", icon: assets.UH_logo },
+        { name: "JavaScript", icon: assets.javascript_logo },
+        { name: "C++", icon: assets.UH_logo },
+      ],
+    },
+    {
+      category: "Full-Stack Development",
+      items: [
+        { name: "HTML", icon: assets.html_logo },
+        { name: "CSS", icon: assets.css_logo},
+        { name: "React", icon: assets.react_logo},
+        { name: "Next.js", icon: assets.nextjs_logo},
+        { name: "Node.js", icon: assets.nodejs_logo },
+        { name: "mongoDb", icon: assets.mongodb_logo },
+        { name: "express", icon: assets.express_logo }
+      ],
+    },
+    {
+      category: "Machine Learning / AI",
+      items: [
+        { name: "PyTorch", icon: assets.UH_logo},
+        { name: "TensorFlow", icon: assets.UH_logo},
+        { name: "Computer Vision", icon: assets.UH_logo},
+        { name: "Generative AI", icon: assets.UH_logo},
+      ],
+    },
+    {
+      category: "Cloud Technologies (AWS)",
+      items: [
+        { name: "EC2", icon: assets.UH_logo},
+        { name: "S3", icon: assets.UH_logo },
+        { name: "SageMaker", icon: assets.UH_logo},
+        { name: "Lambda", icon: assets.UH_logo },
+      ],
+    },
+    {
+      category: "Data Analysis",
+      items: [
+        { name: "SQL", icon: assets.UH_logo},
+        { name: "Snowflake", icon: assets.UH_logo},
+        { name: "Tableau", icon: assets.UH_logo},
+        { name: "Pandas", icon: assets.UH_logo },
+      ],
+    },
+  ];
