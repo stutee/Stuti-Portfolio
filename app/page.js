@@ -12,6 +12,7 @@ import Footer from "@/components/Footer";
 import { useEffect, useState } from "react";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
+import Project from "@/components/Project";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -36,13 +37,15 @@ export default function Home() {
     <>
     <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
     <Header isDarkMode={isDarkMode} />
-    <Education isDarkMode={isDarkMode} />
+    
     {/* <About isDarkMode={isDarkMode} /> */}
     <Experience isDarkMode={isDarkMode} />
     <Skills isDarkMode={isDarkMode} />
-    <Services isDarkMode={isDarkMode} />
-    <Work isDarkMode={isDarkMode} />
+    {/* <Services isDarkMode={isDarkMode} /> */}
+    {/* <Work isDarkMode={isDarkMode} /> */}
+    <Project isDarkMode={isDarkMode} />
     {/* <Contact isDarkMode={isDarkMode} /> */}
+    <Education isDarkMode={isDarkMode} />
     <Footer isDarkMode={isDarkMode} />
     
     </>

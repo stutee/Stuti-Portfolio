@@ -13,7 +13,6 @@ import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
-import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
@@ -51,6 +50,33 @@ import react_logo from './react_logo.png'
 import nextjs_logo from './nextjs_logo.png'
 import mongodb_logo from './mongodb_logo.png'
 import express_logo from './express_logo.png'
+import csharp_logo from './csharp_logo.png'
+import pytorch_logo from './pytorch_logo.png'
+import tensorflow_logo from './tensorflow_logo.png'
+import jupyter_logo from './jupyter_logo.png'
+import pandas_logo from './pandas_logo.png'
+import tableau_logo from './tableau_logo.png'
+import mysql_logo from './mysql_logo.png'
+import snowflake_logo from './snowflake_logo.png'
+import spotfire_logo from './spotfire_logo.png'
+import matplotlib_logo from './matplotlib_logo.png'
+import skilit_logo from './skilit_logo.png'
+
+import ec2_logo from './ec2_logo.png'
+import ecs_logo from './ecs_logo.png'
+import ecr_logo from './ecr_logo.png'
+import s3_logo from './s3_logo.png'
+import sagemaker_logo from './sagemaker_logo.png'
+import lambda_logo from './lambda_logo.png'
+
+
+
+
+
+
+
+
+
 
 export const assets = {
     user_image,
@@ -71,6 +97,23 @@ export const assets = {
     nextjs_logo,
     mongodb_logo,
     express_logo,
+    csharp_logo,
+    pytorch_logo,
+    tensorflow_logo,
+    jupyter_logo,
+    pandas_logo,
+    tableau_logo,
+    mysql_logo,
+    snowflake_logo,
+    spotfire_logo,
+    matplotlib_logo,
+    skilit_logo,
+    ec2_logo,
+    ecr_logo,
+    ecs_logo,
+    s3_logo,
+    sagemaker_logo,
+    lambda_logo,
 
     edu_icon,
     edu_icon_dark,
@@ -82,7 +125,6 @@ export const assets = {
     git,
     mongodb,
     right_arrow_white,
-    logo,
     logo_stuti,
     logo_dark,
     mail_icon,
@@ -214,9 +256,8 @@ export const experiences = [
       items: [
         { name: "Python", icon: assets.python_logo },
         { name: "R", icon: assets.R_logo},
-        { name: "C#", icon: assets.UH_logo },
+        { name: "C#", icon: assets.csharp_logo },
         { name: "JavaScript", icon: assets.javascript_logo },
-        { name: "C++", icon: assets.UH_logo },
       ],
     },
     {
@@ -234,28 +275,104 @@ export const experiences = [
     {
       category: "Machine Learning / AI",
       items: [
-        { name: "PyTorch", icon: assets.UH_logo},
-        { name: "TensorFlow", icon: assets.UH_logo},
-        { name: "Computer Vision", icon: assets.UH_logo},
-        { name: "Generative AI", icon: assets.UH_logo},
+        { name: "PyTorch", icon: assets.pytorch_logo},
+        { name: "TensorFlow", icon: assets.tensorflow_logo},
+        { name: "Jupyter Notebook", icon: jupyter_logo},
+        { name: "Computer Vision", icon: null},
+        { name: "Generative AI", icon: null},
+        { name: "Reinforcement Learning", icon: null},
+        { name: "Retrieval-Augmented Generation", icon: null},
+        
       ],
     },
     {
-      category: "Cloud Technologies (AWS)",
+      category: "Cloud Computing (AWS)",
       items: [
-        { name: "EC2", icon: assets.UH_logo},
-        { name: "S3", icon: assets.UH_logo },
-        { name: "SageMaker", icon: assets.UH_logo},
-        { name: "Lambda", icon: assets.UH_logo },
+        { name: "EC2", icon: assets.ec2_logo},
+        { name: "S3", icon: assets.s3_logo },
+        { name: "SageMaker", icon: assets.sagemaker_logo},
+        { name: "Lambda", icon: assets.lambda_logo },
+        { name: "ECS", icon: assets.ecs_logo },
+        { name: "ECR", icon: assets.ecr_logo },
+
       ],
     },
     {
-      category: "Data Analysis",
+      category: "Data Analytics/Visualization",
       items: [
-        { name: "SQL", icon: assets.UH_logo},
-        { name: "Snowflake", icon: assets.UH_logo},
-        { name: "Tableau", icon: assets.UH_logo},
-        { name: "Pandas", icon: assets.UH_logo },
+        { name: "SQL", icon: assets.mysql_logo},
+        { name: "Snowflake", icon: assets.snowflake_logo},
+        { name: "Tableau", icon: assets.tableau_logo},
+        { name: "Spotfire", icon: assets.spotfire_logo},
+        { name: "Pandas", icon: assets.pandas_logo },
+        { name: "Matplotlib", icon: assets.matplotlib_logo },
+        { name: "Skilit-Learn", icon: assets.skilit_logo },
       ],
     },
+
+    {
+      category: "Others",
+      items: [
+        { name: "Agile", icon: null},
+        { name: "Canva", icon: null},
+        { name: "Trello", icon: null},
+        { name: "Microsoft Office", icon: null},
+
+        
+      ],
+    },
+  ];
+
+
+  export const project = [
+    {
+      icon: assets.sp_logo, 
+      iconDark: assets.sp_logo,
+      title: "Product Management Associate Intern",
+      company: "S&P Global",
+      duration: "Jun 2024 - Aug 2024",
+      points: [
+        "Created Upstream Emission dashboard in Spotfire, utilizing SQL for analysis and visualization to present to clients.",
+        "Performed SQL queries in Snowflake to extract data on gasses emitted during the oil extraction process.",
+        "Trained machine learning model using the XGBoost algorithm to select attributes for effectively predicting the optimal position of drilling wells for high production.",
+        "Collaborated with the research team to cross-check data obtained from various wells.",
+        "Participated in daily sprints (Agile methodology) with Python developers in Poland to engage in daily updates on user stories.",
+      ],
+    },
+    {
+      icon: assets.UH_logo, // Add the company logo or image path
+      iconDark: assets.UH_logo,
+      title: "Virtual Reality Research Assistant",
+      company: "University of Houston",
+      duration: "Aug 2023 - May 2024",
+      points: [
+        "Developed an immersive Metaverse application for Meta Quest 2 & 3 (Oculus).",
+        "Integrated LiDAR point clouds into mesh environments in Unity, developing interactive features, such as distance calculations, multiplayer support, voice chat, and intuitive UIs for construction engineers and workers.",
+      ],
+    },
+
+    {
+        icon: assets.Daraz_logo, // Add the company logo or image path
+        iconDark: assets.Daraz_logo,
+        title: "Artificial Intelligence Trainer",
+        company: "Daraz (Alibaba Group)",
+        duration: "Jul 2022 - Sept 2022",
+        points: [
+          "Enhanced chatbot resolution rate by 5% through data analysis using SQL, Excel, and Pandas.",
+          "Annotated FAQs to improve the chatbot's knowledge base, collaborating with Alibaba's Artificial Intelligence team.",
+          "Launched a trial for a 'smart live agent' feature, influencing strategies in regional markets.",
+          "Refined user experiences and improved the chatbot's user interface for better usability and met the KPI every time."
+        ],
+      },
+      {
+        icon: assets.leapfrog_logo, // Add the company logo or image path
+        iconDark: assets.leapfrog_logo,
+        title: "Software Engineer Intern",
+        company: "Leapfrog Technology Inc",
+        duration: "May 2022 - June 2022",
+        points: [
+          "Prepared responsive design of various web pages from Figma using HTML, CSS, and Javascript.",
+          "Algorithm implementation for game development using javascript, HTML, CSS, Node.js and Express.",
+        ],
+      },
   ];
