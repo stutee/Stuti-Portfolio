@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
+import React from "react";
 import uh_logo from "../assets/UH_logo.png";
 import drone from "../assets/drone.png";
 import pulchowk_team from "../assets/pulchowk_team.png";
@@ -37,29 +38,36 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="mb-16"
+        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black hover:shadow-xl transition-all  rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
       >
-        <h3 className="text-xl mb-4 font-semibold text-gray-600">
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+        <div className="md:w-1/2">
+        <h3 className="text-xl mb-4 font-semibold text-gray-600 dark:text-white/80">
         Reinforcement Learning with Human Feedback for fine tuning Large Language Model (LLM) (2024)     
         </h3>
         <ul className="list-disc ml-6 mb-4 text-gray-600 dark:text-white/80">
           <li>
-            Fine-tuned OpenAI GPT-2 using Reinforcement Learning from Human Feedback (RLHF) with algorithms like Proximal Policy Optimization, Actor to critic, and Trust Region Policy Optimization, optimizing sentiment alignment on the IMDB dataset. Trained supervised reward model to give scores.
+            Fine-tuned OpenAI GPT-2 using Reinforcement Learning from Human Feedback (RLHF) with algorithms: Proximal Policy Optimization, Actor to critic, and Trust Region Policy Optimization, optimizing sentiment alignment on the IMDB dataset. Trained supervised reward model to give scores.
 
           </li>
           <li>
           Comparative analysis of the algorithms using training efficiency, computational complexity, and reward model scores.
           </li>
         </ul>
-          <div className="relative w-full ml-[300px]">
-            <Image
+        </div>
+        
+        <div className="md:w-1/2 flex justify-center">
+          <Image
               src={poster_presentation}
-              alt="drone"
+              alt="Reinforcement Learning Poster"
               width={500}
               height={500}
               className="rounded-md"
-            />
-          </div> 
+          />
+        </div> 
+
+        </div>
+        
       </motion.div>
 
         {/* AWS cloud computing */}
@@ -67,9 +75,11 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="mb-16"
+        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
       >
-        <h3 className="text-xl mb-4 font-semibold text-gray-600">
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+        <div className="md:w-1/2">
+        <h3 className="text-xl mb-4 font-semibold text-gray-600 dark:text-white/80">
         AWS cloud based Movie Recommendation System (2024)     
         </h3>
         <ul className="list-disc ml-6 mb-4 text-gray-600 dark:text-white/80">
@@ -81,7 +91,8 @@ const Projects = () => {
           Designed a user-friendly frontend with Next.js, integrated with secure authentication via Amazon Cognito, and implemented CI/CD pipelines using Docker and GitHub Actions.
           </li>
         </ul>
-          <div className="relative w-full ml-[300px]">
+        </div>
+        <div className="md:w-1/2 flex justify-center">
             <Image
               src={movie_website}
               alt="drone"
@@ -89,7 +100,9 @@ const Projects = () => {
               height={500}
               className="rounded-md"
             />
-          </div> 
+        </div> 
+        </div>
+
       </motion.div>
 
       {/* Foodie Chatbot */}
@@ -97,9 +110,11 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="mb-16"
+        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
       >
-        <h3 className="text-xl mb-4 font-semibold text-gray-600">
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+        <div className="md:w-1/2">
+        <h3 className="text-xl mb-4 font-semibold text-gray-600 dark:text-white/80">
         Foodie Chatbot(2024)    
         </h3>
         <ul className="list-disc ml-6 mb-4 text-gray-600 dark:text-white/80">
@@ -110,7 +125,8 @@ const Projects = () => {
           Used PyQt to create a GUI for the chatbot.
           </li>
         </ul>
-          <div className="relative w-full ml-[300px]">
+        </div>
+          <div className="md:w-1/2 flex justify-center">
             <Image
               src={foodie_chatbot}
               alt="drone"
@@ -119,6 +135,7 @@ const Projects = () => {
               className="rounded-md"
             />
           </div> 
+          </div>
       </motion.div>
 
       {/* Energy modeling */}
@@ -126,7 +143,7 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="mb-16"
+        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
       >
         <h3 className="text-xl mb-4 font-semibold text-gray-600">
         Energy Prediction Modeling: Enhancing AdaBoost Regressor with GA-PSO Hybrid Optimization (2023)     
@@ -151,7 +168,7 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="mb-16"
+        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
       >
         <h3 className="text-xl mb-4 font-semibold text-gray-600">
           ROS-Based Geofencing and Path Planning Optimization for UAVs (2021)
@@ -199,10 +216,11 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="mb-16"
+        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
       >
-        <h3 className="text-xl mb-4 font-semibold text-gray-600">
-        Elephant Intrusion Detection and Alerting (2020)    
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+        <div className="md:w-1/2">
+        <h3 className="text-xl mb-4 font-semibold text-gray-600 dark:text-white/80">        Elephant Intrusion Detection and Alerting (2020)    
         </h3>
         <ul className="list-disc ml-6 mb-4 text-gray-600 dark:text-white/80">
           <li>
@@ -213,17 +231,21 @@ const Projects = () => {
           My role: Research anomaly detection algorithm, implement it on our dataset, and provide the best algorithm. According to the dataset, Random Forest algorithm and Isolation Forest Algorithm performed best. However, the Isolation Forest Algorithm was chosen for its better F1 score, less variance of data, and less expensive in terms of time complexity.
           </li>
         </ul>
-          <div className="relative ml-[300px]">
+        </div>
+          <div className="md:w-1/2 flex justify-center">
             <Image
               src={elephant_intrusion}
               alt="elephant"
               width={500}
               height={10}
               className="rounded-md"
-              style={{ objectFit: "cover", height: "400px" }}
+              style={{ objectFit: "contain", height: "400px" }}
             />
           </div> 
+          </div>
+
       </motion.div>
+      
 
 
     </motion.div>
@@ -231,3 +253,6 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
+

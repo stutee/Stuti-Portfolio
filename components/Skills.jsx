@@ -30,7 +30,7 @@ const Skills = ({ isDarkMode }) => {
           <motion.div
             key={index}
             whileHover={{ scale: 1.05 }}
-            className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+            className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 hover:shadow-xl transition-all duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
           >
             <h3 className="my-4 font-semibold text-gray-700 dark:text-white">
               {skill.category}

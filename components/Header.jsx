@@ -2,6 +2,9 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
+import linkedin_logo from "../assets/linkedin_logo.png";
+import email_logo from "../assets/email_logo.jpg";
+import github_logo from "../assets/github_logo.png";
 
 const Header = () => {
   return (
@@ -31,22 +34,29 @@ const Header = () => {
                 I am a machine learning Engineer and my background as an electronics engineer, 
                 combined with a master’s degree in computer science, allows me to bridge hardware and software.
             </motion.p>
-            <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-                <motion.a 
-                initial = {{y: 30, opacity: 0}}
-                whileInView={{y: 0, opacity:1 }}
-                transition={{duration: 0.6, delay:1}}
-                href="#contact" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'>
-                    Contact Me <Image src={assets.right_arrow_white} alt='' className='w-4' /></motion.a>
-                
-                {/* <motion.a
-                initial = {{y: 30, opacity: 0}}
-                whileInView={{y: 0, opacity:1 }}
-                transition={{duration: 0.6, delay:1.2}}
-                href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'> 
-                my resume <Image src={assets.download_icon} alt='' className='w-4' /></motion.a> */}
-            </div>
-      
+
+            {/* Social Media Icons */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.9 }}
+          className="flex gap-6 mt-6"
+        >
+          {/* LinkedIn */}
+          <a href="https://www.linkedin.com/in/stutikafle/" target="_blank" rel="noopener noreferrer">
+            <Image src={linkedin_logo} alt="LinkedIn" className="w-8 hover:scale-110 transition-transform duration-300 cursor-pointer mt-2" />
+          </a>
+
+          {/* GitHub */}
+          <a href="https://github.com/stutee" target="_blank" rel="noopener noreferrer">
+            <Image src={github_logo} alt="GitHub" className="w-10 hover:scale-110 transition-transform duration-300 cursor-pointer" />
+          </a>
+
+          {/* Email */}
+          <a href="mailto:stutikafle6@gmail.com">
+            <Image src={email_logo} alt="Email" className="w-11 hover:scale-110 transition-transform duration-300 cursor-pointer" />
+          </a>
+        </motion.div>    
     </div>
   )
 }
