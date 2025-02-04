@@ -1,11 +1,13 @@
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
+    output: 'export',  // Required for static export
     images: {
-        unoptimized: true,
+        unoptimized: true,  // GitHub Pages does not support Next.js image optimization
     },
-    basePath: "/Stuti-Portfolio",
-    assetPrefix: "/Stuti-Portfolio",
+    basePath: process.env.NODE_ENV === "production" ? "/Stuti-Portfolio" : "",
+    assetPrefix: process.env.NODE_ENV === "production" ? "/Stuti-Portfolio/" : "",
 };
 
 export default nextConfig;
+
