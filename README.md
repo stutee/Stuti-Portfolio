@@ -1,5 +1,4 @@
-# Skinify
-Personal Portfolio built using Next.js
+# Personal Portfolio built using Next.js
 
 ## Sections
 
