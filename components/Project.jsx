@@ -38,7 +38,7 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black hover:shadow-xl transition-all  rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+        className="hover:shadow-xl transition-all mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
       >
         <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
         <div className="md:w-1/2">
