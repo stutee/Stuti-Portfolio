@@ -1,4 +1,26 @@
+# Skinify
 Personal Portfolio built using Next.js
+
+## Sections
+
+- **About
+- **Experience
+- **Skills
+- **Projects
+
+## Technology Stack
+- Next.js
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 
+- npm or yarn
+
+### Installation and Run
+- npm install
+- npm start
 
 To run the development server:
 
