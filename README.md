@@ -2,10 +2,10 @@
 
 ## Sections
 
-- **About
-- **Experience
-- **Skills
-- **Projects
+- About
+- Experience
+- Skills
+- Projects
 
 ## Technology Stack
 - Next.js
