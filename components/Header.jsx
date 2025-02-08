@@ -22,11 +22,11 @@ const Header = () => {
             Hi! I'm Stuti Kafle <Image src={assets.hand_icon} alt='' className='w-6' />
         </motion.h3>
 
-        <motion.h1 
-        initial = {{y: -30, opacity: 0}}
+        <motion.h4 
+        initial = {{y: -20, opacity: 0}}
         whileInView={{y: 0, opacity:1 }}
-        transition={{duration: 0.8, delay:0.5}}className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-            Machine Learning Engineer. </motion.h1>
+        transition={{duration: 0.8, delay:0.5}}className='text-xl sm:text-xl lg:text-[16px] font-Oswald'>
+            Full Stack Developer | Machine Learning Engineer | Electronics Engineer </motion.h4>
             <motion.p 
             initial = {{opacity: 0}}
             whileInView={{opacity:1 }}

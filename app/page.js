@@ -15,10 +15,10 @@ export default function Home() {
     <>
     <Navbar />
     <Header />
+    <Hackathon />
     <Experience />
     <Skills />
     <Project />
-    <Hackathon />
     <Education />
     
     </>

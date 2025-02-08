@@ -38,10 +38,10 @@ const Navbar = () => {
         
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"} `}>
             <li><a className='font-Ovo' href="#top">Home</a></li>
+            <li><a className='font-Ovo' href="#hackathon">Hackathon</a></li>
             <li><a className='font-Ovo' href="#experience">Experience</a></li>
             <li><a className='font-Ovo' href="#skills">Skills</a></li>
             <li><a className='font-Ovo' href="#projects">Projects</a></li>
-            <li><a className='font-Ovo' href="#hackathon">Hackathon</a></li>
             <li><a className='font-Ovo' href="#education">Education</a></li>
         </ul>
 
@@ -60,10 +60,10 @@ const Navbar = () => {
                 <Image src={assets.close_black} alt='' className='w-5 cursor-pointer' />
             </div>
             <li><a className='font-Ovo' onClick={closeMenu} href='#top'>Home</a></li>
+            <li><a className='font-Ovo' onClick={closeMenu} href='#hackathon'>Hackathon</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href='#experience'>Experience</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href='#skills'>Skills</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href='#projects'>Projects</a></li>
-            <li><a className='font-Ovo' onClick={closeMenu} href='#hackathon'>Hackathon</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href='#education'>Education</a></li>
 
         </ul>
