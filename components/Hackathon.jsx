@@ -38,7 +38,7 @@ const Hackathon = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white hover:shadow-xl transition-all"
       >
         <div className="flex items-center space-x-3 mb-4">
         <Image src={womenai} alt="logo" width={100} height={20} />
@@ -48,7 +48,7 @@ const Hackathon = () => {
         
 
         </div>
-        <ul className="list-disc ml-6 mb-4 text-gray-600 dark:text-white/80">
+        <ul className="list-disc ml-6 mb-4 text-gray-600">
           <li>
           We built Skinnify, an AI-powered skin identification and product recommender system that analyzes your face to provide personalized skincare recommendations in real-time. Building this in just one day was full of challenges, but it was also an amazing learning experience.
           </li>
@@ -87,7 +87,7 @@ const Hackathon = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white hover:shadow-xl transition-all"
       >
         <div className="flex items-center space-x-3 mb-4">
         <Image src={huggingface_logo} alt="logo" width={100} height={20} />
@@ -97,7 +97,7 @@ const Hackathon = () => {
         
 
         </div>
-        <ul className="list-disc ml-6 mb-4 text-gray-600 dark:text-white/80">
+        <ul className="list-disc ml-6 mb-4 text-gray-600">
           <li>
           Two day hackathon where I built robotic arms, configured them, tele-operated one robot arm using another, and recorded a dataset for imitation learning.
           </li>

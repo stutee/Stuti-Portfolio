@@ -38,14 +38,14 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="hover:shadow-xl transition-all mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+        className="hover:shadow-xl transition-all mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white hover:shadow-xl transition-all"
       >
         <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
         <div className="md:w-1/2">
-        <h3 className="text-xl mb-4 font-semibold text-gray-600 dark:text-white/80">
+        <h3 className="text-xl mb-4 font-semibold text-gray-600">
         Reinforcement Learning with Human Feedback for fine tuning Large Language Model (LLM) (2024)     
         </h3>
-        <ul className="list-disc ml-6 mb-4 text-gray-600 dark:text-white/80">
+        <ul className="list-disc ml-6 mb-4 text-gray-600">
           <li>
             Fine-tuned OpenAI GPT-2 using Reinforcement Learning from Human Feedback (RLHF) with algorithms: Proximal Policy Optimization, Actor to critic, and Trust Region Policy Optimization, optimizing sentiment alignment on the IMDB dataset. Trained supervised reward model to give scores.
 
@@ -75,14 +75,14 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white hover:shadow-xl transition-all"
       >
       <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
         <div className="md:w-1/2">
-        <h3 className="text-xl mb-4 font-semibold text-gray-600 dark:text-white/80">
+        <h3 className="text-xl mb-4 font-semibold text-gray-600">
         AWS cloud based Movie Recommendation System (2024)     
         </h3>
-        <ul className="list-disc ml-6 mb-4 text-gray-600 dark:text-white/80">
+        <ul className="list-disc ml-6 mb-4 text-gray-600">
           <li>
           Developed a real-time movie recommendation system leveraging AWS cloud services, SageMaker for machine learning, used K-nearest Neighbor algorithm and ECS (Fargate and EC2) for containerized microservices deployment. 
 
@@ -110,14 +110,14 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white hover:shadow-xl transition-all"
       >
       <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
         <div className="md:w-1/2">
-        <h3 className="text-xl mb-4 font-semibold text-gray-600 dark:text-white/80">
+        <h3 className="text-xl mb-4 font-semibold text-gray-600">
         Foodie Chatbot(2024)    
         </h3>
-        <ul className="list-disc ml-6 mb-4 text-gray-600 dark:text-white/80">
+        <ul className="list-disc ml-6 mb-4 text-gray-600">
           <li>
           Created an AI chatbot using OpenAI's Assistant API that acts as a guide for choosing restaurants in Houston.
           </li>
@@ -143,12 +143,12 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white hover:shadow-xl transition-all"
       >
         <h3 className="text-xl mb-4 font-semibold text-gray-600">
         Energy Prediction Modeling: Enhancing AdaBoost Regressor with GA-PSO Hybrid Optimization (2023)     
         </h3>
-        <ul className="list-disc ml-6 mb-4 text-gray-600 dark:text-white/80">
+        <ul className="list-disc ml-6 mb-4 text-gray-600">
           <li>
           Employed the "Smart Home Dataset with Weather Information" from Kaggle, featuring minute-by-minute energy consumption Preprocessed data by removing empty rows, adding time indices, renaming columns for clarity, removing duplicates using pandas. 
 
@@ -168,12 +168,12 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white hover:shadow-xl transition-all"
       >
         <h3 className="text-xl mb-4 font-semibold text-gray-600">
           ROS-Based Geofencing and Path Planning Optimization for UAVs (2021)
         </h3>
-        <ul className="list-disc ml-6 mb-4 text-gray-600 dark:text-white/80">
+        <ul className="list-disc ml-6 mb-4 text-gray-600">
           <li>
             The project experimented with physical hardware implementation and
             software simulation in CoppeliaSim along with Robot Operating
@@ -216,13 +216,13 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white dark:bg-gray-900 dark:text-white/80 hover:shadow-xl transition-all dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+        className="mb-16 shadow-lg p-6 hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black rounded-xl bg-white hover:shadow-xl transition-all"
       >
         <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
         <div className="md:w-1/2">
-        <h3 className="text-xl mb-4 font-semibold text-gray-600 dark:text-white/80">        Elephant Intrusion Detection and Alerting (2020)    
+        <h3 className="text-xl mb-4 font-semibold text-gray-600">        Elephant Intrusion Detection and Alerting (2020)    
         </h3>
-        <ul className="list-disc ml-6 mb-4 text-gray-600 dark:text-white/80">
+        <ul className="list-disc ml-6 mb-4 text-gray-600">
           <li>
           The isolation Forest algorithm for detecting the anomaly frequency of Elephants, IMU sensors, low pass filters, and energy thresholding to perform detection was used along with the STM32 microcontroller.
 

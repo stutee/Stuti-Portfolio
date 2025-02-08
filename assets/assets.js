@@ -92,14 +92,13 @@ export const assets = {
 };
 
 export const eduList = [
-    { icon: assets.UH_logo, iconDark: assets.UH_logo, universityName: 'University of Houston', title: 'Masters in Computer Science', description: 'Artificial Intelligence, Machine Learning,  Data Mining, Digital Image Processing, Cloud Computing, Visualization, Statistical Methods in Research, Advanced Numerical Analysis, Cybersecurity' },
-    { icon: assets.TU_logo, iconDark: assets.TU_logo,universityName: 'Tribhuvan University: IOE Pulchowk Campus', title: 'Bachelors in Electronics and Communication Engineering', description: 'Object Oriented Programming, Engineering Mathematics (Linear Algebra, Calculus I & II), Discrete Structure, Probability and Statistics, Artificial Intelligence, Data Mining, Digital Signal Processing, Signal Analysis, Database Management Systems, Electronic Devices and Circuits, Embedded Systems, Microprocessor, Computer Network' },
+    { icon: assets.UH_logo, universityName: 'University of Houston', title: 'Masters in Computer Science', description: 'Artificial Intelligence, Machine Learning,  Data Mining, Digital Image Processing, Cloud Computing, Visualization, Statistical Methods in Research, Advanced Numerical Analysis, Cybersecurity' },
+    { icon: assets.TU_logo, universityName: 'Tribhuvan University: IOE Pulchowk Campus', title: 'Bachelors in Electronics and Communication Engineering', description: 'Object Oriented Programming, Engineering Mathematics (Linear Algebra, Calculus I & II), Discrete Structure, Probability and Statistics, Artificial Intelligence, Data Mining, Digital Signal Processing, Signal Analysis, Database Management Systems, Electronic Devices and Circuits, Embedded Systems, Microprocessor, Computer Network' },
 ];
 
 export const experiences = [
   {
     icon: assets.cheforge_logo, 
-    iconDark: assets.cheforge_logo,
     title: "Machine Learning Engineer",
     company: "Cheforge",
     duration: "Dec 2024 - Present",
@@ -112,7 +111,6 @@ export const experiences = [
   },
     {
       icon: assets.sp_logo, 
-      iconDark: assets.sp_logo,
       title: "Product Management Associate Intern",
       company: "S&P Global",
       duration: "Jun 2024 - Aug 2024",
@@ -126,7 +124,6 @@ export const experiences = [
     },
     {
       icon: assets.UH_logo, 
-      iconDark: assets.UH_logo,
       title: "Virtual Reality Research Assistant",
       company: "University of Houston",
       duration: "Aug 2023 - May 2024",
@@ -138,7 +135,6 @@ export const experiences = [
 
     {
         icon: assets.Daraz_logo, 
-        iconDark: assets.Daraz_logo,
         title: "Artificial Intelligence Trainer",
         company: "Daraz (Alibaba Group)",
         duration: "Jul 2022 - Sept 2022",
@@ -151,7 +147,6 @@ export const experiences = [
       },
       {
         icon: assets.leapfrog_logo, 
-        iconDark: assets.leapfrog_logo,
         title: "Software Engineer Intern",
         company: "Leapfrog Technology Inc",
         duration: "May 2022 - June 2022",
@@ -239,7 +234,6 @@ export const experiences = [
   export const project = [
     {
       icon: assets.sp_logo, 
-      iconDark: assets.sp_logo,
       title: "Product Management Associate Intern",
       company: "S&P Global",
       duration: "Jun 2024 - Aug 2024",
@@ -253,7 +247,6 @@ export const experiences = [
     },
     {
       icon: assets.UH_logo, 
-      iconDark: assets.UH_logo,
       title: "Virtual Reality Research Assistant",
       company: "University of Houston",
       duration: "Aug 2023 - May 2024",
@@ -265,7 +258,6 @@ export const experiences = [
 
     {
         icon: assets.Daraz_logo, 
-        iconDark: assets.Daraz_logo,
         title: "Artificial Intelligence Trainer",
         company: "Daraz (Alibaba Group)",
         duration: "Jul 2022 - Sept 2022",
@@ -278,7 +270,6 @@ export const experiences = [
       },
       {
         icon: assets.leapfrog_logo,
-        iconDark: assets.leapfrog_logo,
         title: "Software Engineer Intern",
         company: "Leapfrog Technology Inc",
         duration: "May 2022 - June 2022",
